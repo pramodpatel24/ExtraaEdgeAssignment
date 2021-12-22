@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p.day-of-week {
+    font-size: 2rem;
+  }
+  body {
+    font-size: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  }
+  div.body{
+      float: left;
+  }
+  
+  div.upcoming-weather-card {
+    margin-left: 75%;
+    color: rgb(22, 21, 21);
+    font-size: 0.9rem;
+    font-weight: bolder;
+  }
+  .app {
+    background: linear-gradient(rgb(216, 131, 131), rgb(134, 185, 233), rgb(161, 95, 199));
+    background-size: cover;
+    background-position: bottom;
+    
+  }
+  
+  
+  main {
+    min-height: 100vh;
+    padding: 25px;
+  }
+  
+  .search-box {
+    width: 100%;
+    margin: 0 0 75px;
+    margin-left:100px;
+    align-content: left;
+  }
+  
+  .search-box .search-bar {
+    display: block;
+    width: 60%;
+    padding: 15px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px 16px 16px 16px;
+    margin-top: 3.5px;
+    box-shadow: 1.6px 2.5px rgba(0, 0, 0, 0.3);
+    color: #313131;
+    font-size: 20px;
+  }
+  
+  .search-box .search-bar:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .location-box .location {
+    color: rgb(7, 7, 7);
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .location-box .date {
+    color: rgb(6, 1, 19);
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .weather-box {
+    text-align: center;
+  }
+  .weather-box .weather {
+    font-family: "Lobster", cursive;
+    color: rgb(20, 20, 20);
+    font-size: 32px;
+    font-weight: 770;
+    margin-bottom: 10px;
+  }
+  
+  .weather-box .temp {
+    position: relative;
+    display: inline-block;
+    margin: 30px auto;
+   
+    border-radius: 20px 0px 20px;
+  
+    padding: 15px 25px 10px 23px;
+  
+    color: rgb(17, 16, 16);
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    box-shadow: 10px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .about_btn{
+       font-family: 'Times New Roman', Times, serif;
+        border-radius: 3px;
+        margin-left: 50%;
+        margin-top: 25px;
+        border:none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 3px;
+    
+  }
+ 
+  .about{
+    color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 200px; 
+    }
+    
+.logout{
+    
+    justify-content: center;
+   
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.logout_btn{
+    min-width:100px;
+    margin-top: 100px;
+    padding: 10px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+}
